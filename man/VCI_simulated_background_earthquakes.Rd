@@ -7,7 +7,7 @@
  \code{\link{simulate_aftershocks}}}
 \format{
 An object of class data.frame with 5 columns,
-formatted like other data frames with same structure described above,
+formatted like other data frames with the same structure described above,
 including \code{\link{VCI_earthquakes}}.
 }
 \usage{

@@ -7,14 +7,14 @@
 simulate_background_earthquakes(earthquake_data_plus)
 }
 \arguments{
-\item{earthquake_data_plus}{A object of data.frame with 7 columns: date, time,
+\item{earthquake_data_plus}{An object of data.frame with 7 columns: date, time,
 longitude, latitude, magnitude, bandwidth, and probability, in this order and
 in a consistent format for the first 5 columns.
 The columns bandwidth and probability are two numeric vectors.
-Column bandwidth records the smoothness
-bandwidths used in variable kernel estimation and column probability contains
+The column bandwidth records the smoothness
+bandwidths used in variable kernel estimation and the column probability contains
 the probability for each earthquake in the catalog of interest (observed earthquakes)
-to be a background event; see the etas function in the ETAS package (Jalilian and Zhuang, 2021) and
+to be a background event; see the \link{etas} function in the ETAS package (Jalilian, 2019) and
 the articles of Zhuang et al. (2002, 2004).}
 }
 \value{
@@ -26,7 +26,7 @@ background_catalog: An object of data.frame with 5 columns: date,
 In fitting the ETAS model to the earthquake data catalog of
   interest (\bold{earthquake_data}), the background intensity function \eqn{{\mu}}
   is estimated. This function performs a simulation
-  of background events based on the estimated \eqn{\hat{{\mu}}}.
+  of background events based on the estimate \eqn{\hat{{\mu}}}.
   The time period for the simulated background catalog is consistent with
   that of \bold{earthquake_data}.
 }
@@ -37,7 +37,14 @@ simulate_background_earthquakes(VCI_earthquakes_plus)
 
 }
 \references{
-Zhuang, J., Y. Ogata, and D. Vere-Jones (2002). Stochastic declustering of
+Dutilleul, P., Genest, C., Peng, R., 2024. Bootstrapping for parameter uncertainty
+ in the space-time epidemic-type aftershock sequence model. Geophysical Journal 
+ International 236, 1601–1608. 
+ 
+ Jalilian, A. (2019). ETAS: An \R package for fitting the space-time ETAS model to earthquake data.
+ Journal of Statistical Software, Code Snippets, 88(1), 1–39. doi:10.18637/jss.v088.c01.
+ 
+ Zhuang, J., Y. Ogata, and D. Vere-Jones (2002). Stochastic declustering of
  space-time earthquake occurrences. Journal of the American Statistical
  Association 97(458), 369–380.
 

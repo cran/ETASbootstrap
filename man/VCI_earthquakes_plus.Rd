@@ -16,6 +16,6 @@ VCI_earthquakes_plus
 \description{
 This catalog contains the earthquakes from
  \code{\link{VCI_earthquakes}}, for which the magnitude is greater than or equal to
- 3.5 or the magnitude threshold that has been chose.
+ 3.5 or the magnitude threshold that has been chosen.
 }
 \keyword{datasets}
