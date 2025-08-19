@@ -1,10 +1,10 @@
-32ec7b8cba854be960d3c79531102faf *DESCRIPTION
+4f6387c2e45534d81bd7da7780d85994 *DESCRIPTION
 0ff720247ccdd2de6aaa17ca367891d5 *LICENSE
 39d497910cdb5cdc4d1e29c9a54c2650 *NAMESPACE
 971eea9a902dcea0d91b19b5b402ba65 *R/ETAS_Boots.R
 0bd52cb8524f30b0bbfe2e1410f598ee *R/data.R
 00d1dc5f56e671d23b6e049e3d75bb69 *R/simulate_aftershocks.R
-d7316e5d37ae994a8742cdbcd078766d *R/simulate_background_earthquakes.R
+00960842f6cd79b9c994c44576eecbea *R/simulate_background_earthquakes.R
 6e50d766780ea155e1042a178b7c5a63 *data/JPN_earthquakes.rda
 33682e65e9648bb7f522275f55686317 *data/VCI_earthquakes.rda
 cffca1b65c04bfeb58a4e00d3ef38233 *data/VCI_earthquakes_plus.rda
@@ -17,7 +17,7 @@ fa7ae1d5e0822e70c86568e07296809a *man/VCI_earthquakes_plus.Rd
 7270bb80741d13c2b619aa9510801bcc *man/VCI_magnitude_sample.Rd
 796ba44bf9cc148b3edd570f36d3f1db *man/VCI_simulated_background_earthquakes.Rd
 579de44e10a1f16ac9fc2f9ac03129a5 *man/simulate_aftershocks.Rd
-ec88709feabca5d1be258fed3fd30744 *man/simulate_background_earthquakes.Rd
+5e8ec316e7e94e9423d1cf7edd17e391 *man/simulate_background_earthquakes.Rd
 92682cae6928364353ec9609c469d8c2 *tests/testthat.R
 08b047287bf6d58e37f1a25baae47cb1 *tests/testthat/test-ETAS_Boots.R
 24b22bf04deedb0700c9bac67af80599 *tests/testthat/test-simulate_aftershocks.R

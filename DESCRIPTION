@@ -14,7 +14,7 @@ Description: The 2-D spatial and temporal Epidemic Type Aftershock Sequence ('ET
  package by enabling the study space window (renamed 'study region') to be polygonal rather
  than merely rectangular. A Japan earthquake data catalog is used in a second example to
  illustrate this new feature.
-Version: 0.2.0
+Version: 0.2.1
 Authors@R: c(
   person(given = "Renjie", family = "Peng", 
          email = "renjie.peng@mail.mcgill.ca", 
@@ -31,8 +31,8 @@ Authors@R: c(
          comment = c(ORCID = "0000-0002-1764-0202")
          ))
 Author: Renjie Peng [aut, cre],
-  Pierre Dutilleul [aut] (<https://orcid.org/0000-0002-2381-3421>),
-  Christian Genest [aut] (<https://orcid.org/0000-0002-1764-0202>)
+  Pierre Dutilleul [aut] (ORCID: <https://orcid.org/0000-0002-2381-3421>),
+  Christian Genest [aut] (ORCID: <https://orcid.org/0000-0002-1764-0202>)
 Maintainer: Renjie Peng <renjie.peng@mail.mcgill.ca>
 Depends: R (>= 3.3.0)
 Imports: ETAS (>= 0.5.1), MASS (>= 7.3.58.2), spatstat.geom (>= 3.2.8),
@@ -40,10 +40,10 @@ Imports: ETAS (>= 0.5.1), MASS (>= 7.3.58.2), spatstat.geom (>= 3.2.8),
 License: MIT + file LICENSE
 LazyData: true
 Encoding: UTF-8
-RoxygenNote: 7.3.1
+RoxygenNote: 7.3.2
 Suggests: testthat (>= 3.0.0)
 Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2024-06-09 20:58:08 UTC; rjpeng
+Packaged: 2025-08-13 19:45:30 UTC; rjpeng
 Repository: CRAN
-Date/Publication: 2024-06-09 21:50:02 UTC
+Date/Publication: 2025-08-19 22:10:02 UTC

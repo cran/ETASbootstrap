@@ -14,7 +14,7 @@ The columns bandwidth and probability are two numeric vectors.
 The column bandwidth records the smoothness
 bandwidths used in variable kernel estimation and the column probability contains
 the probability for each earthquake in the catalog of interest (observed earthquakes)
-to be a background event; see the \link{etas} function in the ETAS package (Jalilian, 2019) and
+to be a background event; see the \link[ETAS]{etas} function in the ETAS package (Jalilian, 2019) and
 the articles of Zhuang et al. (2002, 2004).}
 }
 \value{
